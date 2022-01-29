@@ -9,4 +9,5 @@ The list of algorithms we've used along with the accuracies yielded are as follo
   <li>Random Forest Regression - 96%</li>
   <li>Gradient Boosting Regression - 92%</li>
   <li>Extra Trees Regression - 98%</li>
+  <li>XGB Regression - 92%</li>
 </ol>
