@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IPL Score Predictor</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='ipl-favicon.ico') }}">
+        
+    <script src="https://kit.fontawesome.com/f13b0bc903.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <h1>🏆 IPL Score Predictor 🏆</h1> 
+
+			<!-- Result -->
+			<div class="register" >
+                <center>
+                <p style="font-size:30px;">The final predicted score (range):<br> {{ lower_limit }} to {{ upper_limit }}</p><br><br>
+                </center>
+                
+		     </div>
+        <br><br><br>
+     <center>
+    <carousel>
+  <img src="{{ url_for('static', filename= 'mi1.jpg') }}">
+  <img src="{{ url_for('static', filename= 'srh1.png') }}">
+  <img src="{{ url_for('static', filename= 'rcb1.png') }}">
+  <img src="{{ url_for('static', filename= 'dc1.png') }}">
+  <img src="{{ url_for('static', filename= 'rr1.png') }}">
+  <img src="{{ url_for('static', filename= 'kkr1.jpg') }}">
+  <img src="{{ url_for('static', filename= 'kxip1.png') }}">
+  <img src="{{ url_for('static', filename= 'csk1.png') }}">
+</carousel>
+        
+    </center>
+    
+    </body>
+</html>
